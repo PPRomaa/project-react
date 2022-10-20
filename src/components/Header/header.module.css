@@ -1,0 +1,5 @@
+.headerBlock{
+    display: flex;
+    justify-content: space-around;
+    background: #0f71af;
+}
