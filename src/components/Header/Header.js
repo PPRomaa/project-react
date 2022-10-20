@@ -1,8 +1,10 @@
 import {NavLink} from "react-router-dom";
+import {useColorMode} from "theme-ui";
 
 import css from './header.module.css'
 
 const Header = () => {
+    const [colorMode,setColorMode] = useColorMode();
     return (
         <div className={css.headerBlock}>
 
@@ -18,12 +20,14 @@ const Header = () => {
             <div>
                 <span>burger</span>
             </div>
-            <div>
+            <form>
                 <input type="text" placeholder={'find movie'}/>
-            </div>
+            </form>
             <div>
                 <label>
-                    <input type="checkbox"/>
+                    <button onClick={()=>{setColorMode(colorMode === 'light' ? 'Dark' : 'light')}}>
+                        {colorMode === 'light' ? 'Dark' : 'Light'}
+                    </button>
                     <span></span>
                 </label>
             </div>

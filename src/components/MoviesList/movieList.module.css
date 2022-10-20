@@ -1,13 +1,21 @@
+.blockMovies{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 .blockMovie{
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(4,1fr)
+    grid-template-columns: repeat(4,1fr);
+    padding-bottom: 25px;
 }
 
 .smallBlock{
     display: flex;
     justify-content: center;
     text-align: center;
+
     width: 300px;
     height: 300px;
     padding: 15px;
@@ -17,4 +25,9 @@
     border-radius: 10px;
     height: 290px;
     width: 200px;
+}
+.bottom button{
+    height: 50px;
+    width: 100px;
+    margin: 15px;
 }
