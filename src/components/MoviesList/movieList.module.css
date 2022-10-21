@@ -3,7 +3,7 @@
     flex-direction: column;
     text-align: center;
 
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 .blockMovie{
@@ -11,6 +11,7 @@
     grid-gap: 10px;
     grid-template-columns: repeat(4,1fr);
     padding-bottom: 25px;
+    flex-wrap: wrap;
 }
 
 .smallBlock{
@@ -47,6 +48,9 @@
 .detailInfo{
     flex-direction: column;
     margin: 0 auto;
+}
+.blockGenre{
+    padding: 10px;
 }
 /*.stars{*/
 /*    border-radius: 25px;*/

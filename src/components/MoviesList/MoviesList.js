@@ -5,6 +5,7 @@ import {useSearchParams} from "react-router-dom";
 import css from './movieList.module.css'
 import {movieActions} from "../../redux";
 import {MoviesListCard} from "../MoviesListCard/MoviesListCard";
+import {Genre} from "../Genre/Genre";
 
 const MoviesList = () => {
     const {movies: {results}} = useSelector(state => state.movies);
@@ -33,6 +34,9 @@ const MoviesList = () => {
 
     return (
         <div className={css.blockMovies}>
+            <div className={css.blockGenre}>
+                <Genre/>
+            </div>
             <div className={css.blockMovie}>
                 {results && results.map(movie => <MoviesListCard key={movie.id} movie={movie}/>)}
             </div>

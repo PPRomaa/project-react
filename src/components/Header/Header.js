@@ -38,9 +38,9 @@ const Header = () => {
                 <img src="" alt=""/>
                 <span>Logo</span>
             </NavLink>
-            <div>
-                <span>burger</span>
-            </div>
+            {/*<div>*/}
+
+            {/*</div>*/}
             <form onChange={search}>
                 <input type="text" placeholder={'find movie'} onChange={(e)=>setQuery(e.target.value)} value={query}/>
                 <button onClick={find}>Find</button>
