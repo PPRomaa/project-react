@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c0554440-31f4-41df-8701-831e40a8a8c5" name="Changes" comment="movie-project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserInfo/UserInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserInfo/UserInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesList/movieList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesList/movieList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesListCard/MoviesListCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesListCard/MoviesListCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MovieDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MovieDetailsPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +63,8 @@
       <workItem from="1666006642652" duration="10029000" />
       <workItem from="1666038730568" duration="3420000" />
       <workItem from="1666280643287" duration="8771000" />
-      <workItem from="1666351072009" duration="2242000" />
+      <workItem from="1666351072009" duration="2320000" />
+      <workItem from="1666355258908" duration="3244000" />
     </task>
     <task id="LOCAL-00001" summary="movie-project">
       <created>1666286572901</created>
@@ -76,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666303529638</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="movie-project">
+      <created>1666354746120</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666354746120</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

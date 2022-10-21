@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+
+    padding-top: 80px;
 }
 
 .blockMovie{
@@ -15,11 +17,12 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
 
     width: 300px;
     height: 300px;
     padding: 15px;
-    margin: 10px;
+    margin: 20px;
 }
 .smallBlock img{
     border-radius: 10px;
@@ -31,3 +34,21 @@
     width: 100px;
     margin: 15px;
 }
+
+.detailBlock{
+    padding: 60px;
+    display: flex;
+    text-align: center;
+}
+.details{
+    display: flex;
+    justify-content: center;
+}
+.detailInfo{
+    flex-direction: column;
+    margin: 0 auto;
+}
+/*.stars{*/
+/*    border-radius: 25px;*/
+/*    box-shadow: 2px 3px 2px 1px black;*/
+/*}*/

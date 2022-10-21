@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom";
 
+import {Rating} from "../StarRating/Ratings";
 import css from '../MoviesList/movieList.module.css'
 
 const MoviesListCard = ({movie}) => {
@@ -14,6 +15,7 @@ const MoviesListCard = ({movie}) => {
                     <span>{movie.title}</span>
                 </div>
             </Link>
+            <Rating rating={movie.vote_average} classname={css.stars}/>
         </div>
     );
 };
