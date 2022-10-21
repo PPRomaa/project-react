@@ -9,6 +9,7 @@ import {Genre} from "../Genre/Genre";
 
 const MoviesList = () => {
     const {movies: {results}} = useSelector(state => state.movies);
+
     const dispatch = useDispatch();
 
     const [query, setQuery] = useSearchParams({page: '1'});
