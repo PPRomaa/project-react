@@ -1,3 +1,4 @@
 .genre{
     display: flex;
+    flex-wrap: wrap;
 }

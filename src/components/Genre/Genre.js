@@ -1,18 +1,26 @@
-
-import css from './genre.module.css'
 import {useDispatch, useSelector} from "react-redux";
 import {useEffect} from "react";
-import {genresActions} from "../../redux";
+
+import {genresActions, movieActions} from "../../redux";
+import css from './genre.module.css'
+
 
 const Genre = () => {
     const {genres} = useSelector(state => state.genres);
     const dispatch = useDispatch();
+    
     useEffect(()=>{
         dispatch(genresActions.getAllGenres())
-    },[])
+    },[dispatch])
+    
+    const handleSubmit = (id) => {
+        console.log(movieActions.selected(id));
+
+
+    }
 
     return (
-        <div>
+        <div className={css.genre}>
             {
                 genres?.genres?.map(genre =>
                     <div key={genre.id}>
@@ -20,7 +28,7 @@ const Genre = () => {
                             type="checkbox"
                             value={genre.name}
                             name={genre.name}
-                            onClick={()=> dispatch(genresActions.getAllGenres(genre.id))}
+                            onClick={()=> handleSubmit(genre.id)}
                         />
                         {genre.name}
                 </div>)

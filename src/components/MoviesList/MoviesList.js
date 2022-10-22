@@ -9,6 +9,7 @@ import {Genre} from "../Genre/Genre";
 
 const MoviesList = () => {
     const {movies: {results}} = useSelector(state => state.movies);
+    useSelector(state => state.genres);
 
     const dispatch = useDispatch();
 
@@ -39,7 +40,7 @@ const MoviesList = () => {
                 <Genre/>
             </div>
             <div className={css.blockMovie}>
-                {results && results.map(movie => <MoviesListCard key={movie.id} movie={movie}/>)}
+                {results?.map(movie => <MoviesListCard key={movie.id} movie={movie}/>)}
             </div>
             <div className={css.bottom}>
                 <button onClick={prevPage}>Prev</button>

@@ -5,7 +5,7 @@ import {movieActions} from "../../redux";
 
 
 const SearchMovie = () => {
-    const [query, setQuery] = useState('sup');
+    const [query, setQuery] = useState('');
     const dispatch = useDispatch();
 
     // const search = (e) => {
@@ -25,7 +25,7 @@ const SearchMovie = () => {
         e.preventDefault()
         if (query) {
             dispatch(movieActions.searchMovie(query))
-        }else dispatch(movieActions.getAllMovies())
+        }else (dispatch(movieActions.getAllMovies()));
         setQuery('')
     }
 
