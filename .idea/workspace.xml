@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0554440-31f4-41df-8701-831e40a8a8c5" name="Changes" comment="movie-project">
-      <change afterPath="$PROJECT_DIR$/src/components/Search/search.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Genre/Genre.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Genre/Genre.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesList/movieList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesList/movieList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesListCard/MoviesListCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesListCard/MoviesListCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Search/SearchMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search/SearchMovie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/slices/movies.slice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/movies.slice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -70,7 +62,7 @@
       <workItem from="1666355258908" duration="15264000" />
       <workItem from="1666464095981" duration="7010000" />
       <workItem from="1666536850064" duration="4689000" />
-      <workItem from="1666552324142" duration="5556000" />
+      <workItem from="1666552324142" duration="5885000" />
     </task>
     <task id="LOCAL-00001" summary="movie-project">
       <created>1666286572901</created>
@@ -135,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666551506004</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="movie-project">
+      <created>1666560720767</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666560720767</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
