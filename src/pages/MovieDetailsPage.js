@@ -1,4 +1,5 @@
 import {useLocation} from "react-router-dom";
+
 import css from '../components/MoviesList/movieList.module.css'
 import {Rating} from "../components/StarRating/Ratings";
 
@@ -18,7 +19,8 @@ const MovieDetailsPage = () => {
                         <img src={`https://image.tmdb.org/t/p/w400${state.backdrop_path}`} alt="poster_path"/>                    </div>
                     <div>
                     <div>
-                        <span>{state.title}</span>
+                        <span>{state.title}</span> <br/>
+                        <span>{state.release_date}</span>
                     </div>
                         <p>Rating:{state.vote_average}</p>
                         <Rating rating={state.vote_average}/>

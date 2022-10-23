@@ -10,10 +10,9 @@
       <change beforePath="$PROJECT_DIR$/src/components/Genre/genre.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Genre/genre.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MoviesList/MoviesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesList/MoviesList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MoviesList/movieList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesList/movieList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Search/SearchMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search/SearchMovie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StarRating/Ratings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StarRating/Ratings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MovieDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MovieDetailsPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/slices/genres.slice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/genres.slice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/slices/movies.slice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/movies.slice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/movie.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/movie.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,8 @@
       <workItem from="1666280643287" duration="8771000" />
       <workItem from="1666351072009" duration="2320000" />
       <workItem from="1666355258908" duration="15264000" />
-      <workItem from="1666464095981" duration="6896000" />
+      <workItem from="1666464095981" duration="7010000" />
+      <workItem from="1666536850064" duration="4553000" />
     </task>
     <task id="LOCAL-00001" summary="movie-project">
       <created>1666286572901</created>
@@ -119,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666389430967</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="movie-project">
+      <created>1666479322381</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666479322381</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

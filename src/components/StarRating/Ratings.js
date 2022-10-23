@@ -7,7 +7,7 @@ const Rating = ({rating}) => {
             <StarRatings
                 classname={'a'}
                 rating={rating}
-                starRatedColor="yellow"
+                starRatedColor="orange"
                 numberOfStars={10}
                 name='rating'
                 starDimension="20px"

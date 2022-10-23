@@ -8,13 +8,13 @@ import css from './genre.module.css'
 const Genre = () => {
     const {genres} = useSelector(state => state.genres);
     const dispatch = useDispatch();
-    
+
     useEffect(()=>{
         dispatch(genresActions.getAllGenres())
-    },[dispatch])
-    
+    },[])
+
     const handleSubmit = (id) => {
-        console.log(movieActions.selected(id));
+        dispatch(movieActions.selected(id));
 
 
     }

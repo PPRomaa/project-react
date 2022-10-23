@@ -24,6 +24,7 @@ const MoviesList = () => {
         const prev = page - 1;
         if (prev >= 1) {
             setQuery({page: `${prev}`})
+            window.scroll(0,0)
         }
     }
 
@@ -31,6 +32,7 @@ const MoviesList = () => {
         const next = +page + 1;
         if (next <= 500) {
             setQuery({page: `${next}`})
+            window.scroll(0,0)
         }
     }
 

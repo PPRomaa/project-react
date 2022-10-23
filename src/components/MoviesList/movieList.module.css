@@ -12,6 +12,7 @@
     /*grid-gap: 10px;*/
     /*grid-template-columns: repeat(4,1fr);*/
     padding-bottom: 25px;
+    justify-content: center;
 }
 
 .smallBlock{
@@ -25,11 +26,16 @@
     padding: 17px;
     margin: 25px;
 }
+
 .smallBlock img{
     border-radius: 10px;
     height: 290px;
     width: 200px;
 }
+.smallBlock span{
+    text-decoration: none;
+}
+
 .bottom button{
     height: 50px;
     width: 100px;
@@ -50,6 +56,10 @@
     margin: 0 auto;
 }
 .blockGenre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
     padding: 10px;
 }
 /*.stars{*/
