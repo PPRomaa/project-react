@@ -17,13 +17,12 @@ const Header = () => {
             {/*</div>*/}
 
             <NavLink to={'/'}>
-                <img src="" alt=""/>
-                <span>Logo</span>
+                <span className={css.logo}>/MoVIE</span>
             </NavLink>
             <SearchMovie/>
             <div>
                 <label>
-                    <button onClick={() => {
+                    <button className={css.toggle} onClick={() => {
                         setColorMode(colorMode === 'light' ? 'Dark' : 'light')
                     }}>
                         {colorMode === 'light' ? 'Dark' : 'Light'}

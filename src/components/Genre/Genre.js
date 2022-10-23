@@ -10,11 +10,11 @@ const Genre = () => {
     const dispatch = useDispatch();
 
     useEffect(()=>{
-        dispatch(genresActions.getAllGenres())
+        dispatch(genresActions.getAllGenres());
     },[])
 
     const handleSubmit = (id) => {
-        dispatch(movieActions.selected(id));
+        console.log(dispatch(movieActions.selected(id)));
 
 
     }
@@ -25,12 +25,11 @@ const Genre = () => {
                 genres?.genres?.map(genre =>
                     <div key={genre.id}>
                         <input
-                            type="checkbox"
+                            type="button"
                             value={genre.name}
                             name={genre.name}
                             onClick={()=> handleSubmit(genre.id)}
                         />
-                        {genre.name}
                 </div>)
             }
         </div>

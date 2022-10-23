@@ -5,6 +5,7 @@ import css from '../MoviesList/movieList.module.css'
 
 const MoviesListCard = ({movie}) => {
 
+
     return (
         <div className={css.smallBlock}>
             <Link to={movie.id.toString()} state={movie}>

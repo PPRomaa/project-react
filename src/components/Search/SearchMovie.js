@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import {useDispatch} from "react-redux";
 
 import {movieActions} from "../../redux";
+import css from './search.module.css'
 
 
 const SearchMovie = () => {
@@ -33,10 +34,10 @@ const SearchMovie = () => {
         <>
             <form>
                 <input type="text"
-                       placeholder={'find movie'}
+                       placeholder={'search movie...'}
                        onChange={(e) => setQuery(e.target.value)}
                        value={query}/>
-                <button onClick={find}>Find</button>
+                <button onClick={find} type={"submit"}>Find</button>
             </form>
         </>
     )

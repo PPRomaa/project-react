@@ -49,7 +49,7 @@ const movieSlice = createSlice({
     initialState,
     reducers:{
         selected:(state, action)=>{
-            state.currentGenre.push(action.payload)
+            // state.currentGenre.push(action.payload)
         }
     },
     extraReducers:(builder) => {
