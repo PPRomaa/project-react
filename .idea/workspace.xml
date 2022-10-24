@@ -6,14 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c0554440-31f4-41df-8701-831e40a8a8c5" name="Changes" comment="movie-project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Genre/Genre.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Genre/Genre.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Genre/genre.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Genre/genre.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MoviesList/MoviesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesList/MoviesList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MoviesList/movieList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesList/movieList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesListCard/MoviesListCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesListCard/MoviesListCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/slices/movies.slice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/movies.slice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserInfo/UserInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserInfo/UserInfo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -71,7 +67,7 @@
       <workItem from="1666464095981" duration="7010000" />
       <workItem from="1666536850064" duration="4689000" />
       <workItem from="1666552324142" duration="5897000" />
-      <workItem from="1666564114212" duration="6536000" />
+      <workItem from="1666564114212" duration="9201000" />
     </task>
     <task id="LOCAL-00001" summary="movie-project">
       <created>1666286572901</created>
@@ -150,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666563490658</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="movie-project">
+      <created>1666571918973</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666571918973</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

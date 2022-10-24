@@ -51,8 +51,8 @@ const MoviesList = () => {
                 {results?.map(movie => <MoviesListCard key={movie.id} movie={movie}/>)}
             </div>
             <div className={css.bottom}>
-                <button onClick={prevPage}>Prev</button>
-                <button onClick={nextPage}>Next</button>
+                <button className={css.prevNext} onClick={prevPage}>Prev</button>
+                <button className={css.prevNext} onClick={nextPage}>Next</button>
             </div>
         </div>
     );
