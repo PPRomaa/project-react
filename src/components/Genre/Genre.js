@@ -9,14 +9,12 @@ const Genre = () => {
     const {genres} = useSelector(state => state.genres);
     const dispatch = useDispatch();
 
-    useEffect(()=>{
+    useEffect(() => {
         dispatch(genresActions.getAllGenres());
-    },[])
+    }, [dispatch])
 
     const handleSubmit = (id) => {
-        console.log(dispatch(movieActions.selected(id)));
-
-
+        dispatch(movieActions.selected(id))
     }
 
     return (
@@ -28,9 +26,9 @@ const Genre = () => {
                             type="button"
                             value={genre.name}
                             name={genre.name}
-                            onClick={()=> handleSubmit(genre.id)}
+                            onClick={() => handleSubmit(genre.id)}
                         />
-                </div>)
+                    </div>)
             }
         </div>
     )

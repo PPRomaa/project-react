@@ -3,7 +3,7 @@
     flex-direction: column;
     text-align: center;
 
-    padding-top: 60px;
+    /*padding-top: 60px;*/
 }
 
 .blockMovie{
@@ -32,8 +32,18 @@
     height: 290px;
     width: 200px;
 }
+.smallBlock img:hover{
+    height: 300px;
+    width: 210px;
+    transition: ease-in-out 0.4s;
+}
 .smallBlock span{
     text-decoration: none;
+}
+.smallRating{
+    position: relative;
+    bottom: -20px;
+    right: -80px;
 }
 
 

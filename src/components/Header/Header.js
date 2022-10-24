@@ -25,7 +25,7 @@ const Header = () => {
                     <button className={css.toggle} onClick={() => {
                         setColorMode(colorMode === 'light' ? 'Dark' : 'light')
                     }}>
-                        {colorMode === 'light' ? 'Dark' : 'Light'}
+                        {colorMode === 'light' ? 'Dark☾' : 'Light☼'}
                     </button>
                     <span></span>
                 </label>

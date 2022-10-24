@@ -6,7 +6,7 @@ import {movieService} from "../../services";
 const initialState = {
     movies:[],
     page: 1,
-    currentGenre:[]
+    currentGenre:null
 };
 const getAllMovies = createAsyncThunk(
     'movieSlice/getAllMovies',
@@ -49,7 +49,8 @@ const movieSlice = createSlice({
     initialState,
     reducers:{
         selected:(state, action)=>{
-            // state.currentGenre.push(action.payload)
+            state.currentGenre = [];
+            state.currentGenre.push(action.payload)
         }
     },
     extraReducers:(builder) => {
@@ -59,7 +60,7 @@ const movieSlice = createSlice({
             .addCase(searchMovie.fulfilled,(state, action) => {
                 state.movies = action.payload})
             .addCase(findGenre.fulfilled,(state, action) => {
-                state.movies = action.payload.results
+                state.movies = action.payload
             })
     }
 });
