@@ -101,8 +101,6 @@
     .detailBlock{
         width: 650px;
         display: flex;
-        /*flex-direction: column;*/
-        /*margin-left: 50px;*/
     }
     .details{
         flex-wrap: wrap;
@@ -111,5 +109,15 @@
     .details img{
         height: 300px;
         width: 300px;
+    }
+}
+@media (max-width: 440px) {
+    .detailBlock{
+        width: 280px;
+    }
+    .detailInfo{
+        justify-content: center;
+        margin: 0;
+
     }
 }

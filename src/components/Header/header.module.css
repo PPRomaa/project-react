@@ -48,3 +48,32 @@ a{
     cursor: pointer;
     color: #000;
 }
+.userInfo{
+    display: flex;
+}
+.userInfo div{
+    margin-right: 5px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+@media (max-width: 850px) {
+    .logo{
+        font-size: 18px;
+    }
+}
+@media (max-width: 440px) {
+    .logo{
+        font-size: 14px;
+    }
+    .userInfo div{
+        margin-right: 2px;
+    }
+    .circle{
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+}

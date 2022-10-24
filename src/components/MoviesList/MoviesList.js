@@ -18,7 +18,6 @@ const MoviesList = () => {
     const page = query.get('page');
 
     useEffect(() => {
-        // dispatch(movieActions.getAllMovies({page}))
         if (!currentGenre) {
             dispatch(movieActions.getAllMovies({page}))
         } else {

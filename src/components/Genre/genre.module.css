@@ -31,3 +31,12 @@ input[type="button"]:active{
     color: white;
     transition: ease-out 0.1s;
 }
+.genreBadge{
+    position: relative;
+    bottom: -40px;
+    left: 55px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}

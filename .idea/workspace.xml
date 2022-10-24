@@ -6,10 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="c0554440-31f4-41df-8701-831e40a8a8c5" name="Changes" comment="movie-project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Genre/genre.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Genre/genre.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MovieInfo/MoviesInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenreBadge/GenreBadge.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MoviesList/MoviesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesList/MoviesList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MoviesList/movieList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesList/movieList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesListCard/MoviesListCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesListCard/MoviesListCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Search/search.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search/search.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StarsRating/Stars.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UserInfo/UserInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserInfo/UserInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserInfo/circle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MoviesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MoviesPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +75,8 @@
       <workItem from="1666464095981" duration="7010000" />
       <workItem from="1666536850064" duration="4689000" />
       <workItem from="1666552324142" duration="5897000" />
-      <workItem from="1666564114212" duration="9201000" />
+      <workItem from="1666564114212" duration="9403000" />
+      <workItem from="1666597529046" duration="3468000" />
     </task>
     <task id="LOCAL-00001" summary="movie-project">
       <created>1666286572901</created>
@@ -153,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666571918973</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="movie-project">
+      <created>1666574904508</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666574904508</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

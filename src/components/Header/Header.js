@@ -11,11 +11,6 @@ const Header = () => {
 
     return (
         <div className={css.headerBlock}>
-            {/*<div>*/}
-            {/*    <img src="/" alt="photo"/>*/}
-            {/*    <NavLink to={'/'}>All movies</NavLink>*/}
-            {/*</div>*/}
-
             <NavLink to={'/'}>
                 <span className={css.logo}>/MoVIE</span>
             </NavLink>
@@ -27,7 +22,6 @@ const Header = () => {
                     }}>
                         {colorMode === 'light' ? 'Dark☾' : 'Light☼'}
                     </button>
-                    <span></span>
                 </label>
             </div>
             <UserInfo/>
